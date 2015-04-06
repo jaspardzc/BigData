@@ -1,0 +1,507 @@
+jaspardzc@node0:~$ sh EXE
+added manifest
+adding: HW6$WebpagesMapper.class(in = 1616) (out= 682)(deflated 57%)
+adding: HW6$WebpagesSorting.class(in = 1988) (out= 880)(deflated 55%)
+adding: HW6$CheckMapper.class(in = 1217) (out= 469)(deflated 61%)
+adding: HW6$LoadWebpagesNum.class(in = 1428) (out= 576)(deflated 59%)
+adding: HW6$CountClicks.class(in = 1717) (out= 736)(deflated 57%)
+adding: HW6.class(in = 3532) (out= 1746)(deflated 50%)
+adding: HW6.jar(in = 3922) (out= 3717)(deflated 5%)
+adding: HW6.java(in = 9859) (out= 2074)(deflated 78%)
+adding: HW6$JoinOnName.class(in = 2174) (out= 983)(deflated 54%)
+adding: HW6$UsersMapper.class(in = 1771) (out= 772)(deflated 56%)
+adding: HW6$SepJoinedData.class(in = 1668) (out= 693)(deflated 58%)
+14/12/12 10:14:20 INFO Configuration.deprecation: session.id is deprecated. Inst                                                                                        ead, use dfs.metrics.session-id
+14/12/12 10:14:20 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName                                                                                        =JobTracker, sessionId=
+14/12/12 10:14:21 WARN mapreduce.JobSubmitter: Hadoop command-line option parsin                                                                                        g not performed. Implement the Tool interface and execute your application with                                                                                         ToolRunner to remedy this.
+14/12/12 10:14:21 INFO input.FileInputFormat: Total input paths to process : 1
+14/12/12 10:14:21 INFO mapreduce.JobSubmitter: number of splits:1
+14/12/12 10:14:21 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_lo                                                                                        cal1599650980_0001
+14/12/12 10:14:21 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/sta                                                                                        ging/jaspardzc1599650980/.staging/job_local1599650980_0001/job.xml:an attempt to                                                                                         override final parameter: mapreduce.job.end-notification.max.retry.interval;  I                                                                                        gnoring.
+14/12/12 10:14:21 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/sta                                                                                        ging/jaspardzc1599650980/.staging/job_local1599650980_0001/job.xml:an attempt to                                                                                         override final parameter: mapreduce.job.end-notification.max.attempts;  Ignorin                                                                                        g.
+14/12/12 10:14:21 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/loc                                                                                        al/localRunner/jaspardzc/job_local1599650980_0001/job_local1599650980_0001.xml:a                                                                                        n attempt to override final parameter: mapreduce.job.end-notification.max.retry.                                                                                        interval;  Ignoring.
+14/12/12 10:14:21 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/loc                                                                                        al/localRunner/jaspardzc/job_local1599650980_0001/job_local1599650980_0001.xml:a                                                                                        n attempt to override final parameter: mapreduce.job.end-notification.max.attemp                                                                                        ts;  Ignoring.
+14/12/12 10:14:21 INFO mapreduce.Job: The url to track the job: http://localhost                                                                                        :8080/
+14/12/12 10:14:21 INFO mapreduce.Job: Running job: job_local1599650980_0001
+14/12/12 10:14:21 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+14/12/12 10:14:21 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hado                                                                                        op.mapreduce.lib.output.FileOutputCommitter
+14/12/12 10:14:22 INFO mapred.LocalJobRunner: Waiting for map tasks
+14/12/12 10:14:22 INFO mapred.LocalJobRunner: Starting task: attempt_local159965                                                                                        0980_0001_m_000000_0
+14/12/12 10:14:22 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+14/12/12 10:14:22 INFO mapred.MapTask: Processing split: hdfs://10.6.6.10/users/                                                                                        jaspardzc/Users.txt:0+2642
+14/12/12 10:14:22 INFO mapred.LocalJobRunner:
+14/12/12 10:14:22 INFO mapred.Task: Task:attempt_local1599650980_0001_m_000000_0                                                                                         is done. And is in the process of committing
+14/12/12 10:14:22 INFO mapred.LocalJobRunner:
+14/12/12 10:14:22 INFO mapred.Task: Task attempt_local1599650980_0001_m_000000_0                                                                                         is allowed to commit now
+14/12/12 10:14:22 INFO output.FileOutputCommitter: Saved output of task 'attempt                                                                                        _local1599650980_0001_m_000000_0' to hdfs://10.6.6.10/users/jaspardzc/output/Fil                                                                                        teredUsers.txt/_temporary/0/task_local1599650980_0001_m_000000
+14/12/12 10:14:22 INFO mapred.LocalJobRunner: map
+14/12/12 10:14:22 INFO mapred.Task: Task 'attempt_local1599650980_0001_m_000000_                                                                                        0' done.
+14/12/12 10:14:22 INFO mapred.LocalJobRunner: Finishing task: attempt_local15996                                                                                        50980_0001_m_000000_0
+14/12/12 10:14:22 INFO mapred.LocalJobRunner: map task executor complete.
+14/12/12 10:14:22 INFO mapreduce.Job: Job job_local1599650980_0001 running in ub                                                                                        er mode : false
+14/12/12 10:14:22 INFO mapreduce.Job:  map 100% reduce 0%
+14/12/12 10:14:22 INFO mapreduce.Job: Job job_local1599650980_0001 completed suc                                                                                        cessfully
+14/12/12 10:14:22 INFO mapreduce.Job: Counters: 23
+        File System Counters
+                FILE: Number of bytes read=15254
+                FILE: Number of bytes written=241140
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=2642
+                HDFS: Number of bytes written=752
+                HDFS: Number of read operations=7
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=3
+        Map-Reduce Framework
+                Map input records=250
+                Map output records=60
+                Input split bytes=107
+                Spilled Records=0
+                Failed Shuffles=0
+                Merged Map outputs=0
+                GC time elapsed (ms)=24
+                CPU time spent (ms)=0
+                Physical memory (bytes) snapshot=0
+                Virtual memory (bytes) snapshot=0
+                Total committed heap usage (bytes)=16318464
+        File Input Format Counters
+                Bytes Read=2642
+        File Output Format Counters
+                Bytes Written=752
+14/12/12 10:14:22 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with proces                                                                                        sName=JobTracker, sessionId= - already initialized
+14/12/12 10:14:22 WARN mapreduce.JobSubmitter: Hadoop command-line option parsin                                                                                        g not performed. Implement the Tool interface and execute your application with                                                                                         ToolRunner to remedy this.
+14/12/12 10:14:22 INFO input.FileInputFormat: Total input paths to process : 1
+14/12/12 10:14:22 INFO mapreduce.JobSubmitter: number of splits:1
+14/12/12 10:14:22 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_lo                                                                                        cal1628398538_0002
+14/12/12 10:14:23 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/sta                                                                                        ging/jaspardzc1628398538/.staging/job_local1628398538_0002/job.xml:an attempt to                                                                                         override final parameter: mapreduce.job.end-notification.max.retry.interval;  I                                                                                        gnoring.
+14/12/12 10:14:23 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/sta                                                                                        ging/jaspardzc1628398538/.staging/job_local1628398538_0002/job.xml:an attempt to                                                                                         override final parameter: mapreduce.job.end-notification.max.attempts;  Ignorin                                                                                        g.
+14/12/12 10:14:23 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/loc                                                                                        al/localRunner/jaspardzc/job_local1628398538_0002/job_local1628398538_0002.xml:a                                                                                        n attempt to override final parameter: mapreduce.job.end-notification.max.retry.                                                                                        interval;  Ignoring.
+14/12/12 10:14:23 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/loc                                                                                        al/localRunner/jaspardzc/job_local1628398538_0002/job_local1628398538_0002.xml:a                                                                                        n attempt to override final parameter: mapreduce.job.end-notification.max.attemp                                                                                        ts;  Ignoring.
+14/12/12 10:14:23 INFO mapreduce.Job: The url to track the job: http://localhost                                                                                        :8080/
+14/12/12 10:14:23 INFO mapreduce.Job: Running job: job_local1628398538_0002
+14/12/12 10:14:23 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+14/12/12 10:14:23 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hado                                                                                        op.mapreduce.lib.output.FileOutputCommitter
+14/12/12 10:14:23 INFO mapred.LocalJobRunner: Waiting for map tasks
+14/12/12 10:14:23 INFO mapred.LocalJobRunner: Starting task: attempt_local162839                                                                                        8538_0002_m_000000_0
+14/12/12 10:14:23 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+14/12/12 10:14:23 INFO mapred.MapTask: Processing split: hdfs://10.6.6.10/users/                                                                                        jaspardzc/Webpages.txt:0+510940
+14/12/12 10:14:23 INFO mapred.LocalJobRunner:
+14/12/12 10:14:23 INFO mapred.Task: Task:attempt_local1628398538_0002_m_000000_0                                                                                         is done. And is in the process of committing
+14/12/12 10:14:23 INFO mapred.LocalJobRunner:
+14/12/12 10:14:23 INFO mapred.Task: Task attempt_local1628398538_0002_m_000000_0                                                                                         is allowed to commit now
+14/12/12 10:14:23 INFO output.FileOutputCommitter: Saved output of task 'attempt                                                                                        _local1628398538_0002_m_000000_0' to hdfs://10.6.6.10/users/jaspardzc/output/Fil                                                                                        teredWebpages.txt/_temporary/0/task_local1628398538_0002_m_000000
+14/12/12 10:14:23 INFO mapred.LocalJobRunner: map
+14/12/12 10:14:23 INFO mapred.Task: Task 'attempt_local1628398538_0002_m_000000_                                                                                        0' done.
+14/12/12 10:14:23 INFO mapred.LocalJobRunner: Finishing task: attempt_local16283                                                                                        98538_0002_m_000000_0
+14/12/12 10:14:23 INFO mapred.LocalJobRunner: map task executor complete.
+14/12/12 10:14:24 INFO mapreduce.Job: Job job_local1628398538_0002 running in ub                                                                                        er mode : false
+14/12/12 10:14:24 INFO mapreduce.Job:  map 100% reduce 0%
+14/12/12 10:14:24 INFO mapreduce.Job: Job job_local1628398538_0002 completed suc                                                                                        cessfully
+14/12/12 10:14:24 INFO mapreduce.Job: Counters: 23
+        File System Counters
+                FILE: Number of bytes read=30512
+                FILE: Number of bytes written=481794
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=513582
+                HDFS: Number of bytes written=561692
+                HDFS: Number of read operations=19
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=9
+        Map-Reduce Framework
+                Map input records=25000
+                Map output records=25000
+                Input split bytes=110
+                Spilled Records=0
+                Failed Shuffles=0
+                Merged Map outputs=0
+                GC time elapsed (ms)=4
+                CPU time spent (ms)=0
+                Physical memory (bytes) snapshot=0
+                Virtual memory (bytes) snapshot=0
+                Total committed heap usage (bytes)=16318464
+        File Input Format Counters
+                Bytes Read=510940
+        File Output Format Counters
+                Bytes Written=560940
+14/12/12 10:14:24 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with proces                                                                                        sName=JobTracker, sessionId= - already initialized
+14/12/12 10:14:24 WARN mapreduce.JobSubmitter: Hadoop command-line option parsin                                                                                        g not performed. Implement the Tool interface and execute your application with                                                                                         ToolRunner to remedy this.
+14/12/12 10:14:24 INFO input.FileInputFormat: Total input paths to process : 2
+14/12/12 10:14:24 INFO mapreduce.JobSubmitter: number of splits:2
+14/12/12 10:14:24 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_lo                                                                                        cal46322004_0003
+14/12/12 10:14:24 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/sta                                                                                        ging/jaspardzc46322004/.staging/job_local46322004_0003/job.xml:an attempt to ove                                                                                        rride final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignor                                                                                        ing.
+14/12/12 10:14:24 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/sta                                                                                        ging/jaspardzc46322004/.staging/job_local46322004_0003/job.xml:an attempt to ove                                                                                        rride final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+14/12/12 10:14:24 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/loc                                                                                        al/localRunner/jaspardzc/job_local46322004_0003/job_local46322004_0003.xml:an at                                                                                        tempt to override final parameter: mapreduce.job.end-notification.max.retry.inte                                                                                        rval;  Ignoring.
+14/12/12 10:14:24 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/loc                                                                                        al/localRunner/jaspardzc/job_local46322004_0003/job_local46322004_0003.xml:an at                                                                                        tempt to override final parameter: mapreduce.job.end-notification.max.attempts;                                                                                          Ignoring.
+14/12/12 10:14:24 INFO mapreduce.Job: The url to track the job: http://localhost                                                                                        :8080/
+14/12/12 10:14:24 INFO mapreduce.Job: Running job: job_local46322004_0003
+14/12/12 10:14:24 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+14/12/12 10:14:24 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hado                                                                                        op.mapreduce.lib.output.FileOutputCommitter
+14/12/12 10:14:24 INFO mapred.LocalJobRunner: Waiting for map tasks
+14/12/12 10:14:24 INFO mapred.LocalJobRunner: Starting task: attempt_local463220                                                                                        04_0003_m_000000_0
+14/12/12 10:14:24 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+14/12/12 10:14:24 INFO mapred.MapTask: Processing split: hdfs://10.6.6.10/users/                                                                                        jaspardzc/output/FilteredWebpages.txt/part-m-00000:0+560940
+14/12/12 10:14:24 INFO mapred.MapTask: Map output collector class = org.apache.h                                                                                        adoop.mapred.MapTask$MapOutputBuffer
+14/12/12 10:14:24 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+14/12/12 10:14:24 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+14/12/12 10:14:24 INFO mapred.MapTask: soft limit at 83886080
+14/12/12 10:14:24 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+14/12/12 10:14:24 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+14/12/12 10:14:24 INFO mapred.LocalJobRunner:
+14/12/12 10:14:24 INFO mapred.MapTask: Starting flush of map output
+14/12/12 10:14:24 INFO mapred.MapTask: Spilling map output
+14/12/12 10:14:24 INFO mapred.MapTask: bufstart = 0; bufend = 560940; bufvoid =                                                                                         104857600
+14/12/12 10:14:24 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26                                                                                        114400(104457600); length = 99997/6553600
+14/12/12 10:14:24 INFO mapred.MapTask: Finished spill 0
+14/12/12 10:14:24 INFO mapred.Task: Task:attempt_local46322004_0003_m_000000_0 i                                                                                        s done. And is in the process of committing
+14/12/12 10:14:24 INFO mapred.LocalJobRunner: hdfs://10.6.6.10/users/jaspardzc/o                                                                                        utput/FilteredWebpages.txt/part-m-00000:0+560940
+14/12/12 10:14:24 INFO mapred.Task: Task 'attempt_local46322004_0003_m_000000_0'                                                                                         done.
+14/12/12 10:14:24 INFO mapred.LocalJobRunner: Finishing task: attempt_local46322                                                                                        004_0003_m_000000_0
+14/12/12 10:14:24 INFO mapred.LocalJobRunner: Starting task: attempt_local463220                                                                                        04_0003_m_000001_0
+14/12/12 10:14:24 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+14/12/12 10:14:24 INFO mapred.MapTask: Processing split: hdfs://10.6.6.10/users/                                                                                        jaspardzc/output/FilteredUsers.txt/part-m-00000:0+752
+14/12/12 10:14:24 INFO mapred.MapTask: Map output collector class = org.apache.h                                                                                        adoop.mapred.MapTask$MapOutputBuffer
+14/12/12 10:14:24 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+14/12/12 10:14:24 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+14/12/12 10:14:24 INFO mapred.MapTask: soft limit at 83886080
+14/12/12 10:14:24 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+14/12/12 10:14:24 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+14/12/12 10:14:24 INFO mapred.LocalJobRunner:
+14/12/12 10:14:24 INFO mapred.MapTask: Starting flush of map output
+14/12/12 10:14:24 INFO mapred.MapTask: Spilling map output
+14/12/12 10:14:24 INFO mapred.MapTask: bufstart = 0; bufend = 752; bufvoid = 104                                                                                        857600
+14/12/12 10:14:24 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26                                                                                        214160(104856640); length = 237/6553600
+14/12/12 10:14:24 INFO mapred.MapTask: Finished spill 0
+14/12/12 10:14:24 INFO mapred.Task: Task:attempt_local46322004_0003_m_000001_0 i                                                                                        s done. And is in the process of committing
+14/12/12 10:14:24 INFO mapred.LocalJobRunner: hdfs://10.6.6.10/users/jaspardzc/o                                                                                        utput/FilteredUsers.txt/part-m-00000:0+752
+14/12/12 10:14:24 INFO mapred.Task: Task 'attempt_local46322004_0003_m_000001_0'                                                                                         done.
+14/12/12 10:14:24 INFO mapred.LocalJobRunner: Finishing task: attempt_local46322                                                                                        004_0003_m_000001_0
+14/12/12 10:14:24 INFO mapred.LocalJobRunner: map task executor complete.
+14/12/12 10:14:24 INFO mapred.LocalJobRunner: Waiting for reduce tasks
+14/12/12 10:14:24 INFO mapred.LocalJobRunner: Starting task: attempt_local463220                                                                                        04_0003_r_000000_0
+14/12/12 10:14:24 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+14/12/12 10:14:24 INFO mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apach                                                                                        e.hadoop.mapreduce.task.reduce.Shuffle@98ba456
+14/12/12 10:14:24 INFO reduce.MergeManagerImpl: MergerManager: memoryLimit=36328                                                                                        5696, maxSingleShuffleLimit=90821424, mergeThreshold=239768576, ioSortFactor=10,                                                                                         memToMemMergeOutputsThreshold=10
+14/12/12 10:14:24 INFO reduce.EventFetcher: attempt_local46322004_0003_r_000000_                                                                                        0 Thread started: EventFetcher for fetching Map Completion Events
+14/12/12 10:14:25 INFO reduce.LocalFetcher: localfetcher#1 about to shuffle outp                                                                                        ut of map attempt_local46322004_0003_m_000001_0 decomp: 874 len: 878 to MEMORY
+14/12/12 10:14:25 INFO reduce.InMemoryMapOutput: Read 874 bytes from map-output                                                                                         for attempt_local46322004_0003_m_000001_0
+14/12/12 10:14:25 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output                                                                                         of size: 874, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->87                                                                                        4
+14/12/12 10:14:25 WARN io.ReadaheadPool: Failed readahead on ifile
+EBADF: Bad file descriptor
+        at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posix_fadvise(Native Met                                                                                        hod)
+        at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posixFadviseIfPossible(N                                                                                        ativeIO.java:263)
+        at org.apache.hadoop.io.nativeio.NativeIO$POSIX$CacheManipulator.posixFa                                                                                        dviseIfPossible(NativeIO.java:142)
+        at org.apache.hadoop.io.ReadaheadPool$ReadaheadRequestImpl.run(Readahead                                                                                        Pool.java:206)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.                                                                                        java:1142)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor                                                                                        .java:617)
+        at java.lang.Thread.run(Thread.java:745)
+14/12/12 10:14:25 INFO reduce.LocalFetcher: localfetcher#1 about to shuffle outp                                                                                        ut of map attempt_local46322004_0003_m_000000_0 decomp: 610942 len: 610946 to ME                                                                                        MORY
+14/12/12 10:14:25 INFO reduce.InMemoryMapOutput: Read 610942 bytes from map-outp                                                                                        ut for attempt_local46322004_0003_m_000000_0
+14/12/12 10:14:25 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output                                                                                         of size: 610942, inMemoryMapOutputs.size() -> 2, commitMemory -> 874, usedMemory                                                                                         ->611816
+14/12/12 10:14:25 INFO reduce.EventFetcher: EventFetcher is interrupted.. Return                                                                                        ing
+14/12/12 10:14:25 INFO mapred.LocalJobRunner: 2 / 2 copied.
+14/12/12 10:14:25 INFO reduce.MergeManagerImpl: finalMerge called with 2 in-memo                                                                                        ry map-outputs and 0 on-disk map-outputs
+14/12/12 10:14:25 INFO mapred.Merger: Merging 2 sorted segments
+14/12/12 10:14:25 WARN io.ReadaheadPool: Failed readahead on ifile
+EBADF: Bad file descriptor
+        at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posix_fadvise(Native Met                                                                                        hod)
+        at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posixFadviseIfPossible(N                                                                                        ativeIO.java:263)
+        at org.apache.hadoop.io.nativeio.NativeIO$POSIX$CacheManipulator.posixFa                                                                                        dviseIfPossible(NativeIO.java:142)
+        at org.apache.hadoop.io.ReadaheadPool$ReadaheadRequestImpl.run(Readahead                                                                                        Pool.java:206)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.                                                                                        java:1142)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor                                                                                        .java:617)
+        at java.lang.Thread.run(Thread.java:745)
+14/12/12 10:14:25 INFO mapred.Merger: Down to the last merge-pass, with 2 segmen                                                                                        ts left of total size: 611798 bytes
+14/12/12 10:14:25 INFO reduce.MergeManagerImpl: Merged 2 segments, 611816 bytes                                                                                         to disk to satisfy reduce memory limit
+14/12/12 10:14:25 INFO reduce.MergeManagerImpl: Merging 1 files, 611818 bytes fr                                                                                        om disk
+14/12/12 10:14:25 INFO reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from                                                                                         memory into reduce
+14/12/12 10:14:25 INFO mapred.Merger: Merging 1 sorted segments
+14/12/12 10:14:25 INFO mapred.Merger: Down to the last merge-pass, with 1 segmen                                                                                        ts left of total size: 611806 bytes
+14/12/12 10:14:25 INFO mapred.LocalJobRunner: 2 / 2 copied.
+14/12/12 10:14:25 INFO Configuration.deprecation: mapred.skip.on is deprecated.                                                                                         Instead, use mapreduce.job.skiprecords
+14/12/12 10:14:25 INFO mapreduce.Job: Job job_local46322004_0003 running in uber                                                                                         mode : false
+14/12/12 10:14:25 INFO mapreduce.Job:  map 100% reduce 0%
+14/12/12 10:14:25 INFO mapred.Task: Task:attempt_local46322004_0003_r_000000_0 i                                                                                        s done. And is in the process of committing
+14/12/12 10:14:25 INFO mapred.LocalJobRunner: 2 / 2 copied.
+14/12/12 10:14:25 INFO mapred.Task: Task attempt_local46322004_0003_r_000000_0 i                                                                                        s allowed to commit now
+14/12/12 10:14:25 INFO output.FileOutputCommitter: Saved output of task 'attempt                                                                                        _local46322004_0003_r_000000_0' to hdfs://10.6.6.10/users/jaspardzc/output/Joine                                                                                        dOnName/_temporary/0/task_local46322004_0003_r_000000
+14/12/12 10:14:25 INFO mapred.LocalJobRunner: reduce > reduce
+14/12/12 10:14:25 INFO mapred.Task: Task 'attempt_local46322004_0003_r_000000_0'                                                                                         done.
+14/12/12 10:14:25 INFO mapred.LocalJobRunner: Finishing task: attempt_local46322                                                                                        004_0003_r_000000_0
+14/12/12 10:14:25 INFO mapred.LocalJobRunner: reduce task executor complete.
+14/12/12 10:14:26 INFO mapreduce.Job:  map 100% reduce 100%
+14/12/12 10:14:26 INFO mapreduce.Job: Job job_local46322004_0003 completed succe                                                                                        ssfully
+14/12/12 10:14:26 INFO mapreduce.Job: Counters: 38
+        File System Counters
+                FILE: Number of bytes read=1362143
+                FILE: Number of bytes written=4610031
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=3225070
+                HDFS: Number of bytes written=1867525
+                HDFS: Number of read operations=100
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=41
+        Map-Reduce Framework
+                Map input records=25060
+                Map output records=25060
+                Map output bytes=561692
+                Map output materialized bytes=611824
+                Input split bytes=273
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=250
+                Reduce shuffle bytes=611824
+                Reduce input records=25060
+                Reduce output records=6000
+                Spilled Records=50120
+                Shuffled Maps =2
+                Failed Shuffles=0
+                Merged Map outputs=2
+                GC time elapsed (ms)=51
+                CPU time spent (ms)=0
+                Physical memory (bytes) snapshot=0
+                Virtual memory (bytes) snapshot=0
+                Total committed heap usage (bytes)=457912320
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=561692
+        File Output Format Counters
+                Bytes Written=182449
+14/12/12 10:14:26 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with proces                                                                                        sName=JobTracker, sessionId= - already initialized
+14/12/12 10:14:26 WARN mapreduce.JobSubmitter: Hadoop command-line option parsin                                                                                        g not performed. Implement the Tool interface and execute your application with                                                                                         ToolRunner to remedy this.
+14/12/12 10:14:26 INFO input.FileInputFormat: Total input paths to process : 1
+14/12/12 10:14:26 INFO mapreduce.JobSubmitter: number of splits:1
+14/12/12 10:14:26 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_lo                                                                                        cal1538524327_0004
+14/12/12 10:14:26 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/sta                                                                                        ging/jaspardzc1538524327/.staging/job_local1538524327_0004/job.xml:an attempt to                                                                                         override final parameter: mapreduce.job.end-notification.max.retry.interval;  I                                                                                        gnoring.
+14/12/12 10:14:26 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/sta                                                                                        ging/jaspardzc1538524327/.staging/job_local1538524327_0004/job.xml:an attempt to                                                                                         override final parameter: mapreduce.job.end-notification.max.attempts;  Ignorin                                                                                        g.
+14/12/12 10:14:26 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/loc                                                                                        al/localRunner/jaspardzc/job_local1538524327_0004/job_local1538524327_0004.xml:a                                                                                        n attempt to override final parameter: mapreduce.job.end-notification.max.retry.                                                                                        interval;  Ignoring.
+14/12/12 10:14:26 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/loc                                                                                        al/localRunner/jaspardzc/job_local1538524327_0004/job_local1538524327_0004.xml:a                                                                                        n attempt to override final parameter: mapreduce.job.end-notification.max.attemp                                                                                        ts;  Ignoring.
+14/12/12 10:14:26 INFO mapreduce.Job: The url to track the job: http://localhost                                                                                        :8080/
+14/12/12 10:14:26 INFO mapreduce.Job: Running job: job_local1538524327_0004
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hado                                                                                        op.mapreduce.lib.output.FileOutputCommitter
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: Waiting for map tasks
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: Starting task: attempt_local153852                                                                                        4327_0004_m_000000_0
+14/12/12 10:14:26 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+14/12/12 10:14:26 INFO mapred.MapTask: Processing split: hdfs://10.6.6.10/users/                                                                                        jaspardzc/output/JoinedOnName/part-r-00000:0+182449
+14/12/12 10:14:26 INFO mapred.MapTask: Map output collector class = org.apache.h                                                                                        adoop.mapred.MapTask$MapOutputBuffer
+14/12/12 10:14:26 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+14/12/12 10:14:26 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+14/12/12 10:14:26 INFO mapred.MapTask: soft limit at 83886080
+14/12/12 10:14:26 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+14/12/12 10:14:26 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+14/12/12 10:14:26 INFO mapred.LocalJobRunner:
+14/12/12 10:14:26 INFO mapred.MapTask: Starting flush of map output
+14/12/12 10:14:26 INFO mapred.MapTask: Spilling map output
+14/12/12 10:14:26 INFO mapred.MapTask: bufstart = 0; bufend = 107249; bufvoid =                                                                                         104857600
+14/12/12 10:14:26 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26                                                                                        190400(104761600); length = 23997/6553600
+14/12/12 10:14:26 INFO mapred.MapTask: Finished spill 0
+14/12/12 10:14:26 INFO mapred.Task: Task:attempt_local1538524327_0004_m_000000_0                                                                                         is done. And is in the process of committing
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: hdfs://10.6.6.10/users/jaspardzc/o                                                                                        utput/JoinedOnName/part-r-00000:0+182449
+14/12/12 10:14:26 INFO mapred.Task: Task 'attempt_local1538524327_0004_m_000000_                                                                                        0' done.
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: Finishing task: attempt_local15385                                                                                        24327_0004_m_000000_0
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: map task executor complete.
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: Waiting for reduce tasks
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: Starting task: attempt_local153852                                                                                        4327_0004_r_000000_0
+14/12/12 10:14:26 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+14/12/12 10:14:26 INFO mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apach                                                                                        e.hadoop.mapreduce.task.reduce.Shuffle@72fdf636
+14/12/12 10:14:26 INFO reduce.MergeManagerImpl: MergerManager: memoryLimit=36328                                                                                        5696, maxSingleShuffleLimit=90821424, mergeThreshold=239768576, ioSortFactor=10,                                                                                         memToMemMergeOutputsThreshold=10
+14/12/12 10:14:26 INFO reduce.EventFetcher: attempt_local1538524327_0004_r_00000                                                                                        0_0 Thread started: EventFetcher for fetching Map Completion Events
+14/12/12 10:14:26 INFO reduce.LocalFetcher: localfetcher#2 about to shuffle outp                                                                                        ut of map attempt_local1538524327_0004_m_000000_0 decomp: 119251 len: 119255 to                                                                                         MEMORY
+14/12/12 10:14:26 INFO reduce.InMemoryMapOutput: Read 119251 bytes from map-outp                                                                                        ut for attempt_local1538524327_0004_m_000000_0
+14/12/12 10:14:26 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output                                                                                         of size: 119251, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory -                                                                                        >119251
+14/12/12 10:14:26 INFO reduce.EventFetcher: EventFetcher is interrupted.. Return                                                                                        ing
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: 1 / 1 copied.
+14/12/12 10:14:26 INFO reduce.MergeManagerImpl: finalMerge called with 1 in-memo                                                                                        ry map-outputs and 0 on-disk map-outputs
+14/12/12 10:14:26 INFO mapred.Merger: Merging 1 sorted segments
+14/12/12 10:14:26 INFO mapred.Merger: Down to the last merge-pass, with 1 segmen                                                                                        ts left of total size: 119233 bytes
+14/12/12 10:14:26 WARN io.ReadaheadPool: Failed readahead on ifile
+EBADF: Bad file descriptor
+        at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posix_fadvise(Native Met                                                                                        hod)
+        at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posixFadviseIfPossible(N                                                                                        ativeIO.java:263)
+        at org.apache.hadoop.io.nativeio.NativeIO$POSIX$CacheManipulator.posixFa                                                                                        dviseIfPossible(NativeIO.java:142)
+        at org.apache.hadoop.io.ReadaheadPool$ReadaheadRequestImpl.run(Readahead                                                                                        Pool.java:206)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.                                                                                        java:1142)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor                                                                                        .java:617)
+        at java.lang.Thread.run(Thread.java:745)
+14/12/12 10:14:26 INFO reduce.MergeManagerImpl: Merged 1 segments, 119251 bytes                                                                                         to disk to satisfy reduce memory limit
+14/12/12 10:14:26 INFO reduce.MergeManagerImpl: Merging 1 files, 119255 bytes fr                                                                                        om disk
+14/12/12 10:14:26 INFO reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from                                                                                         memory into reduce
+14/12/12 10:14:26 INFO mapred.Merger: Merging 1 sorted segments
+14/12/12 10:14:26 INFO mapred.Merger: Down to the last merge-pass, with 1 segmen                                                                                        ts left of total size: 119233 bytes
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: 1 / 1 copied.
+14/12/12 10:14:26 INFO mapred.Task: Task:attempt_local1538524327_0004_r_000000_0                                                                                         is done. And is in the process of committing
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: 1 / 1 copied.
+14/12/12 10:14:26 INFO mapred.Task: Task attempt_local1538524327_0004_r_000000_0                                                                                         is allowed to commit now
+14/12/12 10:14:26 INFO output.FileOutputCommitter: Saved output of task 'attempt                                                                                        _local1538524327_0004_r_000000_0' to hdfs://10.6.6.10/users/jaspardzc/output/Gro                                                                                        upByURL/_temporary/0/task_local1538524327_0004_r_000000
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: reduce > reduce
+14/12/12 10:14:26 INFO mapred.Task: Task 'attempt_local1538524327_0004_r_000000_                                                                                        0' done.
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: Finishing task: attempt_local15385                                                                                        24327_0004_r_000000_0
+14/12/12 10:14:26 INFO mapred.LocalJobRunner: reduce task executor complete.
+14/12/12 10:14:27 INFO mapreduce.Job: Job job_local1538524327_0004 running in ub                                                                                        er mode : false
+14/12/12 10:14:27 INFO mapreduce.Job:  map 100% reduce 100%
+14/12/12 10:14:27 INFO mapreduce.Job: Job job_local1538524327_0004 completed suc                                                                                        cessfully
+14/12/12 10:14:27 INFO mapreduce.Job: Counters: 38
+        File System Counters
+                FILE: Number of bytes read=2808996
+                FILE: Number of bytes written=4730455
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=2515446
+                HDFS: Number of bytes written=1496610
+                HDFS: Number of read operations=95
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=40
+        Map-Reduce Framework
+                Map input records=6000
+                Map output records=6000
+                Map output bytes=107249
+                Map output materialized bytes=119255
+                Input split bytes=130
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=500
+                Reduce shuffle bytes=119255
+                Reduce input records=6000
+                Reduce output records=500
+                Spilled Records=12000
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=56
+                CPU time spent (ms)=0
+                Physical memory (bytes) snapshot=0
+                Virtual memory (bytes) snapshot=0
+                Total committed heap usage (bytes)=518676480
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=182449
+        File Output Format Counters
+                Bytes Written=8328
+14/12/12 10:14:27 INFO jvm.JvmMetrics: Cannot initialize JVM Metrics with proces                                                                                        sName=JobTracker, sessionId= - already initialized
+14/12/12 10:14:27 WARN mapreduce.JobSubmitter: Hadoop command-line option parsin                                                                                        g not performed. Implement the Tool interface and execute your application with                                                                                         ToolRunner to remedy this.
+14/12/12 10:14:27 INFO input.FileInputFormat: Total input paths to process : 1
+14/12/12 10:14:27 INFO mapreduce.JobSubmitter: number of splits:1
+14/12/12 10:14:27 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_lo                                                                                        cal13464782_0005
+14/12/12 10:14:27 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/sta                                                                                        ging/jaspardzc13464782/.staging/job_local13464782_0005/job.xml:an attempt to ove                                                                                        rride final parameter: mapreduce.job.end-notification.max.retry.interval;  Ignor                                                                                        ing.
+14/12/12 10:14:27 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/sta                                                                                        ging/jaspardzc13464782/.staging/job_local13464782_0005/job.xml:an attempt to ove                                                                                        rride final parameter: mapreduce.job.end-notification.max.attempts;  Ignoring.
+14/12/12 10:14:27 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/loc                                                                                        al/localRunner/jaspardzc/job_local13464782_0005/job_local13464782_0005.xml:an at                                                                                        tempt to override final parameter: mapreduce.job.end-notification.max.retry.inte                                                                                        rval;  Ignoring.
+14/12/12 10:14:27 WARN conf.Configuration: file:/tmp/hadoop-jaspardzc/mapred/loc                                                                                        al/localRunner/jaspardzc/job_local13464782_0005/job_local13464782_0005.xml:an at                                                                                        tempt to override final parameter: mapreduce.job.end-notification.max.attempts;                                                                                          Ignoring.
+14/12/12 10:14:27 INFO mapreduce.Job: The url to track the job: http://localhost                                                                                        :8080/
+14/12/12 10:14:27 INFO mapreduce.Job: Running job: job_local13464782_0005
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hado                                                                                        op.mapreduce.lib.output.FileOutputCommitter
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: Waiting for map tasks
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: Starting task: attempt_local134647                                                                                        82_0005_m_000000_0
+14/12/12 10:14:27 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+14/12/12 10:14:27 INFO mapred.MapTask: Processing split: hdfs://10.6.6.10/users/                                                                                        jaspardzc/output/GroupByURL/part-r-00000:0+8328
+14/12/12 10:14:27 INFO mapred.MapTask: Map output collector class = org.apache.h                                                                                        adoop.mapred.MapTask$MapOutputBuffer
+14/12/12 10:14:27 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+14/12/12 10:14:27 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+14/12/12 10:14:27 INFO mapred.MapTask: soft limit at 83886080
+14/12/12 10:14:27 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+14/12/12 10:14:27 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+14/12/12 10:14:27 INFO mapred.LocalJobRunner:
+14/12/12 10:14:27 INFO mapred.MapTask: Starting flush of map output
+14/12/12 10:14:27 INFO mapred.MapTask: Spilling map output
+14/12/12 10:14:27 INFO mapred.MapTask: bufstart = 0; bufend = 8941; bufvoid = 10                                                                                        4857600
+14/12/12 10:14:27 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26                                                                                        212400(104849600); length = 1997/6553600
+14/12/12 10:14:27 INFO mapred.MapTask: Finished spill 0
+14/12/12 10:14:27 INFO mapred.Task: Task:attempt_local13464782_0005_m_000000_0 i                                                                                        s done. And is in the process of committing
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: hdfs://10.6.6.10/users/jaspardzc/o                                                                                        utput/GroupByURL/part-r-00000:0+8328
+14/12/12 10:14:27 INFO mapred.Task: Task 'attempt_local13464782_0005_m_000000_0'                                                                                         done.
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: Finishing task: attempt_local13464                                                                                        782_0005_m_000000_0
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: map task executor complete.
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: Waiting for reduce tasks
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: Starting task: attempt_local134647                                                                                        82_0005_r_000000_0
+14/12/12 10:14:27 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+14/12/12 10:14:27 INFO mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apach                                                                                        e.hadoop.mapreduce.task.reduce.Shuffle@6ff66670
+14/12/12 10:14:27 INFO reduce.MergeManagerImpl: MergerManager: memoryLimit=36328                                                                                        5696, maxSingleShuffleLimit=90821424, mergeThreshold=239768576, ioSortFactor=10,                                                                                         memToMemMergeOutputsThreshold=10
+14/12/12 10:14:27 INFO reduce.EventFetcher: attempt_local13464782_0005_r_000000_                                                                                        0 Thread started: EventFetcher for fetching Map Completion Events
+14/12/12 10:14:27 INFO reduce.LocalFetcher: localfetcher#3 about to shuffle outp                                                                                        ut of map attempt_local13464782_0005_m_000000_0 decomp: 9943 len: 9947 to MEMORY
+14/12/12 10:14:27 INFO reduce.InMemoryMapOutput: Read 9943 bytes from map-output                                                                                         for attempt_local13464782_0005_m_000000_0
+14/12/12 10:14:27 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output                                                                                         of size: 9943, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->9                                                                                        943
+14/12/12 10:14:27 INFO reduce.EventFetcher: EventFetcher is interrupted.. Return                                                                                        ing
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: 1 / 1 copied.
+14/12/12 10:14:27 INFO reduce.MergeManagerImpl: finalMerge called with 1 in-memo                                                                                        ry map-outputs and 0 on-disk map-outputs
+14/12/12 10:14:27 INFO mapred.Merger: Merging 1 sorted segments
+14/12/12 10:14:27 INFO mapred.Merger: Down to the last merge-pass, with 1 segmen                                                                                        ts left of total size: 9937 bytes
+14/12/12 10:14:27 INFO reduce.MergeManagerImpl: Merged 1 segments, 9943 bytes to                                                                                         disk to satisfy reduce memory limit
+14/12/12 10:14:27 INFO reduce.MergeManagerImpl: Merging 1 files, 9947 bytes from                                                                                         disk
+14/12/12 10:14:27 INFO reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from                                                                                         memory into reduce
+14/12/12 10:14:27 INFO mapred.Merger: Merging 1 sorted segments
+14/12/12 10:14:27 INFO mapred.Merger: Down to the last merge-pass, with 1 segmen                                                                                        ts left of total size: 9937 bytes
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: 1 / 1 copied.
+14/12/12 10:14:27 INFO mapred.Task: Task:attempt_local13464782_0005_r_000000_0 i                                                                                        s done. And is in the process of committing
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: 1 / 1 copied.
+14/12/12 10:14:27 INFO mapred.Task: Task attempt_local13464782_0005_r_000000_0 i                                                                                        s allowed to commit now
+14/12/12 10:14:27 INFO output.FileOutputCommitter: Saved output of task 'attempt                                                                                        _local13464782_0005_r_000000_0' to hdfs://10.6.6.10/users/jaspardzc/output/Sorti                                                                                        ngByClicks/_temporary/0/task_local13464782_0005_r_000000
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: reduce > reduce
+14/12/12 10:14:27 INFO mapred.Task: Task 'attempt_local13464782_0005_r_000000_0'                                                                                         done.
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: Finishing task: attempt_local13464                                                                                        782_0005_r_000000_0
+14/12/12 10:14:27 INFO mapred.LocalJobRunner: reduce task executor complete.
+14/12/12 10:14:28 INFO mapreduce.Job: Job job_local13464782_0005 running in uber                                                                                         mode : false
+14/12/12 10:14:28 INFO mapreduce.Job:  map 100% reduce 100%
+14/12/12 10:14:28 INFO mapreduce.Job: Job job_local13464782_0005 completed succe                                                                                        ssfully
+14/12/12 10:14:28 INFO mapreduce.Job: Counters: 38
+        File System Counters
+                FILE: Number of bytes read=3098014
+                FILE: Number of bytes written=5357813
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=2532102
+                HDFS: Number of bytes written=1504985
+                HDFS: Number of read operations=121
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=52
+        Map-Reduce Framework
+                Map input records=500
+                Map output records=500
+                Map output bytes=8941
+                Map output materialized bytes=9947
+                Input split bytes=128
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=22
+                Reduce shuffle bytes=9947
+                Reduce input records=500
+                Reduce output records=3
+                Spilled Records=1000
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=49
+                CPU time spent (ms)=0
+                Physical memory (bytes) snapshot=0
+                Virtual memory (bytes) snapshot=0
+                Total committed heap usage (bytes)=394338304
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters
+                Bytes Read=8328
+        File Output Format Counters
+                Bytes Written=47
+The total time elapsed: 8927ms
